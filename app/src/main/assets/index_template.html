@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>Latest {{numOfFiles}} Files in THETA V</title>
+  <script type="text/javascript">
+  </script>
+  <style type="text/css">
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(20px / 2 * -1);
+}
+.child {
+  flex: 1;
+  margin: 0 calc(20px / 2);
+  height: 200px;
+}
+
+.t360:-webkit-full-screen {
+  width:100%;
+  height:100% ;
+}
+</style>
+</head>
+<body>
+
+<div class="parent">
+{{{fileElements}}}
+</div>
+<br/>
+
+</body>
+</html>
